@@ -1,0 +1,6 @@
+description: "A very simple command for demonstration purposes"
+parameters:
+  to:
+    required: true
+steps:
+  - run: echo << parameters.to >>
