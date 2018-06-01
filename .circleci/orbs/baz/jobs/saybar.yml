@@ -1,0 +1,9 @@
+parameters:
+  saywhat:
+    description: "To whom shall we say hello?"
+    default: "World"
+    type: string
+machine: true
+steps:
+  - saybar:
+      to: "<< parameters.saywhat >>"
